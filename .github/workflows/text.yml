@@ -26,7 +26,7 @@ jobs:
 
       - name: Run Playwright tests
         run: |
-          pytest tests/ --browser=chromium --headless
+          pytest 
         env:
           PLAYWRIGHT_BROWSERS_PATH: /home/runner/.cache/ms-playwright
 
