@@ -1,6 +1,7 @@
 import pytest
 from playwright.sync_api import sync_playwright
 
+
 def test_launch_google():
     with sync_playwright() as p:
         browser = p.chromium.launch(headless=False)
@@ -10,4 +11,3 @@ def test_launch_google():
         assert "Google" in page.title()  # Simple validation
         print("Google launched and title verified")
         browser.close()
-
