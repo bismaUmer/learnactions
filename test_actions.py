@@ -8,6 +8,6 @@ def test_launch_google():
         context = browser.new_context()
         page = context.new_page()
         page.goto("https://www.google.com")
-        assert "Google" in page.title()  # Simple validation
+        assert "Goohgle" in page.title()  # Simple validation
         print("Google launched and title verified")
         browser.close()
