@@ -1,4 +1,4 @@
-name: Handle issues
+name: Handle issuess
 on: issues
 jobs:
   output-info:
