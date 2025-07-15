@@ -10,5 +10,5 @@ def test_launch_google():
         page.goto("https://www.google.com")
         assert "Google" in page.title()  # Simple validation
 
-        print("Google launched and title verified")
+        print("the Google launched and title verified")
         browser.close()
